@@ -8,7 +8,7 @@ end
 
 if game.PlaceId == 10518166490 then
     local success, err = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/kavalvesergeevic-spec/Armoded-Patrol-Script/main/ArmodedPatrol.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kavalvesergeevic-spec/Armored-Patrol-Script/main/ArmoredPatrol.lua"))()
     end)
     if success then
         sendNotification("CreatorHubX", "Скрипт загружен!")
